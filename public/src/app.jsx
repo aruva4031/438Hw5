@@ -3,6 +3,18 @@
 
 $(function () {
   'use strict';
+  
+  $('#username-input').keypress(function(e) {
+    if (!e) e = window.event;
+    var keyCode = e.keyCode || e.which;
+    if (keyCode == '13') {
+      // Enter pressed
+      initChat($('#container')[0],
+      $('#username-input').val());
+      return false;
+    }
+  })
+  
   $('#connect-btn').click(function () {
     initChat($('#container')[0],
       $('#username-input').val());
