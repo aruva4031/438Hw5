@@ -4,7 +4,7 @@ var PeerServer = require('peer').PeerServer;
 var express = require('express');
 var Topics = require('./public/src/Topics.js');
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT;
 
 app.use(express.static(__dirname + '/public'));
 
