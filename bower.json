@@ -3,9 +3,9 @@
   "main": "index.js",
   "version": "0.0.0",
   "authors": [
-    "mgechev <mgechev@gmail.com>"
+    "438"
   ],
-  "license": "MIT",
+  "license": "Shcools",
   "ignore": [
     "**/.*",
     "node_modules",
