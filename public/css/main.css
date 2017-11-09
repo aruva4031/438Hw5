@@ -11,6 +11,8 @@ body, html {
 .chat-box {
   height: 100%;
   background-color: #fff;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 .chat-header {
@@ -20,6 +22,9 @@ body, html {
   font-weight: bold;
   color: #fff;
   background-color: #59ADEB;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #0074cc;
 }
 
 .chat-messages {
@@ -29,6 +34,9 @@ body, html {
   background-image: url(https://sites.google.com/site/csitin3/_/rsrc/1343759392145/config/Otter.JPG);
   background-repeat: no-repeat;
   background-position: center;
+   border-style: solid;
+   border-radius: 5px;
+   border-width: 2px;
   /*background-color: #F0F7FF;*/
 }
 
@@ -36,7 +44,14 @@ body, html {
   min-height: 21px;
   padding-left: 10px;
   margin: 3px;
-  font-family: consolas;
+  font-family: serif;
+  border-bottom-style: solid;
+  border-width: 2px;
+  background-color: #e2e2e0;
+}
+.chat-message:hover{
+	background-color: #bdf6f9;
+	font-weight: bold;
 }
 
 .message-author,
@@ -55,14 +70,21 @@ body, html {
 
 .users-list {
   height: 100%;
-  background-color: #fff;
+  background-color: #eaf6ff;
   color: #eee;
   padding: 0px;
+  border-style: solid;
+   border-radius: 5px;
+   border-width: 2px;
+   border-color: black;
+  font-size: 20px;
 }
 
 .chat-user {
   padding: 3px;
   color: #111;
+  border-bottom-style: solid;
+  background-color: #7cd6b0;
 }
 
 .chat-content-wrapper {
