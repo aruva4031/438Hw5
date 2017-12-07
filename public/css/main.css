@@ -1,3 +1,4 @@
+/*
 body, html {
   height: 100%;
 }
@@ -37,7 +38,7 @@ body, html {
    border-style: solid;
    border-radius: 5px;
    border-width: 2px;
-  /*background-color: #F0F7FF;*/
+  /*background-color: #F0F7FF;
 }
 
 .chat-message {
@@ -105,4 +106,122 @@ body, html {
   padding: 10px;
   color: #000;
   font-size: 20px;
+}
+*/
+body, html {
+  height: 100%;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  height: 90%;
+}
+
+.chat-box {
+  height: 100%;
+  background-color: #fff;
+  border-style: solid;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.chat-header {
+  height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5cb85c;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5cb85c;
+}
+
+.chat-messages {
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width:70%;
+  padding: 0px;
+  background-image: url("css/Logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+   border-style: solid;
+   border-radius: 3px;
+   border-width: 1px;
+  /*background-color: #F0F7FF;*/
+}
+
+.chat-message {
+  min-height: 21px;
+  padding-left: 20px;
+  margin: 3px;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom-style: solid;
+  border-width: 2px;
+  background-color: #e2e2e0;
+}
+.chat-message:hover{
+	background-color: #bdf6f9;
+	font-weight: bold;
+}
+
+.message-author,
+.message-time {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #666;
+  float: left;
+  margin-right: 6px;
+}
+
+.message-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #000;
+  display: inline-block;
+}
+
+.users-list {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background-color: #5cb85c;
+  color: #eee;
+  padding: 0px;
+  border-style: solid;
+   border-radius: 5px;
+   border-width: 2px;
+   border-color: black;
+  font-size: 20px;
+}
+
+.chat-user {
+  font-family: 'Open Sans', sans-serif;
+  padding: 3px;
+  color: #111;
+  border-bottom-style: solid;
+  background-color: #7cd6b0;
+}
+
+.chat-content-wrapper {
+  height: -webkit-calc(100% - 64px);
+  height: -moz-calc(100% - 64px);
+  height: -ms-calc(100% - 64px);
+  height: calc(100% - 64px);
+  margin: 0px;
+}
+
+.reg-form-container {
+  width: 50%;
+  margin: auto;
+  padding-top: 10%;
+}
+
+.chat-no-messages {
+  padding: 15px;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }

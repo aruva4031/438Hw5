@@ -12,7 +12,7 @@ var ChatMessage = React.createClass({
     return (
       <div className="chat-message">
         <div className="message-time">[{ hours + ':' + minutes }]</div>
-        <div className="message-author">&lt;{msg.author}&gt;</div>
+        <div className="message-author">({msg.author})</div>
         <div className="message-content">{msg.content}</div>
       </div>
     );

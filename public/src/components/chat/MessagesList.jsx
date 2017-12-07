@@ -39,7 +39,7 @@ var MessagesList = React.createClass({
       );
     });
     if (!messages.length) {
-      messages = <div className="chat-no-messages">No messages</div>;
+      messages = <div className="chat-no-messages">No messages yet</div>;
     }
     return (
       <div ref="messageContainer" className="chat-messages col-xs-9">
